@@ -38,6 +38,10 @@
         text-align: center;
         padding: 8px;
 }
+.space:hover a{
+    color: red;
+    background-color: #2b2a2f;
+}
 
 .mainbox{
     display: flex;
@@ -185,6 +189,34 @@
     justify-content: center;
     margin-top: 60px;
 }
+.senior:hover {
+    background-color: black;
+}
+.senior2:hover {
+    background-color: black;
+}
+.senior3:hover {
+    background-color: black;
+}
+.senior:hover h1{
+    color: brown;
+}
+.senior2:hover h1{
+    color: brown;
+}
+.senior3:hover h1{
+    color:brown;
+}
+.senior:hover p{
+    color: white;
+}
+.senior2:hover p{
+    color: white;
+}
+.senior3:hover p{
+    color: white;
+}
+
 .hope {
     color: white;
     font-size: 35px;
@@ -372,6 +404,9 @@
     border-radius: 10px;
     padding: 8px;
     cursor: pointer;
+}
+.match:hover button{
+    background-color: #2b2a2f;
 }
 .last{
     background-color: #4E0FEA;
